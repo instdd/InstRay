@@ -124,20 +124,17 @@ jobs:
 
       # ─────────────────── сборка APK + AAB (release) ────────────────────
       - name: Build release artifacts
+        working-directory: InstRay        # теперь ./gradlew доступен напрямую
         run: |
-          # создаём local.properties там, где находится build.gradle.kts
-          echo "sdk.dir=${ANDROID_HOME}" > InstRay/local.properties
-
-          # даём права root-скрипту и работаем через него
+          echo "sdk.dir=${ANDROID_HOME}" > local.properties
           chmod +x ./gradlew
-          ./gradlew -p InstRay licenseFdroidReleaseReport
-          ./gradlew -p InstRay \
-                    :app:assembleRelease \
-                    :app:bundleRelease \
-                    -Pandroid.injected.signing.store.file=${{ steps.android_keystore.outputs.filePath }} \
-                    -Pandroid.injected.signing.store.password=${{ secrets.APP_KEYSTORE_PASSWORD }} \
-                    -Pandroid.injected.signing.key.alias=${{ secrets.APP_KEYSTORE_ALIAS }} \
-                    -Pandroid.injected.signing.key.password=${{ secrets.APP_KEY_PASSWORD }}
+          ./gradlew licenseFdroidReleaseReport
+          ./gradlew :app:assembleRelease :app:bundleRelease \
+              -Pandroid.injected.signing.store.file=${{ steps.android_keystore.outputs.filePath }} \
+              -Pandroid.injected.signing.store.password=${{ secrets.APP_KEYSTORE_PASSWORD }} \
+              -Pandroid.injected.signing.key.alias=${{ secrets.APP_KEYSTORE_ALIAS }} \
+              -Pandroid.injected.signing.key.password=${{ secrets.APP_KEY_PASSWORD }}
+      
       
 
       # ────────────────────────── артефакты CI ───────────────────────────
