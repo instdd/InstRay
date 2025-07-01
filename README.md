@@ -10,12 +10,15 @@ A V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-cor
 [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn)
 
 ### Telegram Channel
-[github_2dust](https://t.me/github_2dust)
+[InstVpn](https://t.me/instvpnofficial)
+
+### Telegram Bot
+[InstVpn](https://t.me/reels_vpn_bot)
 
 ### Usage
 
 #### Geoip and Geosite
-- geoip.dat and geosite.dat files are in `Android/data/com.v2ray.ang/files/assets` (path may differ on some Android device)
+- geoip.dat and geosite.dat files are in `Android/data/com.instray.ang/files/assets` (path may differ on some Android device)
 - download feature will get enhanced version in this [repo](https://github.com/Loyalsoldier/v2ray-rules-dat) (Note it need a working proxy)
 - latest official [domain list](https://github.com/Loyalsoldier/v2ray-rules-dat) and [ip list](https://github.com/Loyalsoldier/geoip) can be imported manually
 - possible to use third party dat file in the same folder, like [h2y](https://guide.v2fly.org/routing/sitedata.html#%E5%A4%96%E7%BD%AE%E7%9A%84%E5%9F%9F%E5%90%8D%E6%96%87%E4%BB%B6)
