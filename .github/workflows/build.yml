@@ -125,6 +125,7 @@ jobs:
       # ─────────────────── сборка APK + AAB (release) ────────────────────
       - name: Build release artifacts
         run: |
+          cd "$GITHUB_WORKSPACE/InstRay"
           echo "sdk.dir=${ANDROID_HOME}" > local.properties
           chmod +x ./gradlew
           ./gradlew licenseFdroidReleaseReport
