@@ -39,9 +39,6 @@ jobs:
             --channel=3 \
             --install "ndk;29.0.13113456"
           echo "NDK_HOME=$ANDROID_HOME/ndk/29.0.13113456" >> "$GITHUB_ENV"
-          # добавляем ndkVersion в build.gradle.kts, если её там нет
-          sed -i '10i\
-              ndkVersion = "29.0.13113456"' "$GITHUB_WORKSPACE/app/build.gradle.kts"
 
       # ───────────── кэш и сборка libtun2socks (C) ─────────────
       - name: Restore cached libtun2socks

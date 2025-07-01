@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    ndkVersion = "29.0.13113456"
     namespace = "com.instray.ang"
     compileSdk = 35
 
