@@ -135,7 +135,7 @@ android {
 
 }
 
-repositories { flatDir { dirs("libs") } }
+//repositories { flatDir { dirs("libs") } }
 
 dependencies {
     // Core Libraries
