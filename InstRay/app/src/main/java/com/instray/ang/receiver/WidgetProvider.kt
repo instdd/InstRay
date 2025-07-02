@@ -1,4 +1,4 @@
-package com.v2ray.ang.receiver
+package com.instray.ang.receiver
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -8,9 +8,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.widget.RemoteViews
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.service.V2RayServiceManager
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.service.V2RayServiceManager
 
 class WidgetProvider : AppWidgetProvider() {
     /**

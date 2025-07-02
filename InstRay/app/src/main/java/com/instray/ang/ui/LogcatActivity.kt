@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,12 +9,12 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityLogcatBinding
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.ANG_PACKAGE
+import com.instray.ang.R
+import com.instray.ang.databinding.ActivityLogcatBinding
+import com.instray.ang.extension.toastSuccess
+import com.instray.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

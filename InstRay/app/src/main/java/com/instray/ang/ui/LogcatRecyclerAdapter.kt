@@ -1,11 +1,11 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.databinding.ItemRecyclerLogcatBinding
+import com.instray.ang.AppConfig
+import com.instray.ang.databinding.ItemRecyclerLogcatBinding
 
 class LogcatRecyclerAdapter(val activity: LogcatActivity) : RecyclerView.Adapter<LogcatRecyclerAdapter.MainViewHolder>() {
     private var mActivity: LogcatActivity = activity

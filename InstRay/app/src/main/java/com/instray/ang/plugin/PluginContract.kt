@@ -17,7 +17,7 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.instray.ang.plugin
 
 object PluginContract {
 

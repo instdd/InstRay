@@ -1,11 +1,11 @@
-package com.v2ray.ang.util
+package com.instray.ang.util
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.service.V2RayTestService
+import com.instray.ang.AppConfig
+import com.instray.ang.service.V2RayTestService
 import java.io.Serializable
 
 object MessageUtil {

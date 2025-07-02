@@ -1,8 +1,8 @@
-package com.v2ray.ang.dto
+package com.instray.ang.dto
 
 import com.google.gson.annotations.SerializedName
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.util.Utils
 
 data class V2rayConfig(
     var remarks: String? = null,

@@ -1,4 +1,4 @@
-package com.v2ray.ang
+package com.instray.ang
 
 
 object AppConfig {
@@ -70,9 +70,9 @@ object AppConfig {
     const val PROTOCOL_FREEDOM = "freedom"
 
     /** Broadcast actions. */
-    const val BROADCAST_ACTION_SERVICE = "com.v2ray.ang.action.service"
-    const val BROADCAST_ACTION_ACTIVITY = "com.v2ray.ang.action.activity"
-    const val BROADCAST_ACTION_WIDGET_CLICK = "com.v2ray.ang.action.widget.click"
+    const val BROADCAST_ACTION_SERVICE = "com.instray.ang.action.service"
+    const val BROADCAST_ACTION_ACTIVITY = "com.instray.ang.action.activity"
+    const val BROADCAST_ACTION_WIDGET_CLICK = "com.instray.ang.action.widget.click"
 
     /** Tasker extras. */
     const val TASKER_EXTRA_BUNDLE = "com.twofortyfouram.locale.intent.extra.BUNDLE"

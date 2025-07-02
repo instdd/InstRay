@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.instray.ang.service
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -10,12 +10,12 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.SUBSCRIPTION_UPDATE_CHANNEL
-import com.v2ray.ang.AppConfig.SUBSCRIPTION_UPDATE_CHANNEL_NAME
-import com.v2ray.ang.R
-import com.v2ray.ang.handler.AngConfigManager.updateConfigViaSub
-import com.v2ray.ang.handler.MmkvManager
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.SUBSCRIPTION_UPDATE_CHANNEL
+import com.instray.ang.AppConfig.SUBSCRIPTION_UPDATE_CHANNEL_NAME
+import com.instray.ang.R
+import com.instray.ang.handler.AngConfigManager.updateConfigViaSub
+import com.instray.ang.handler.MmkvManager
 
 object SubscriptionUpdater {
 

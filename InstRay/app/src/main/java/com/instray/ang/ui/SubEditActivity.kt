@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,14 +6,14 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubEditBinding
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.databinding.ActivitySubEditBinding
+import com.instray.ang.dto.SubscriptionItem
+import com.instray.ang.extension.toast
+import com.instray.ang.extension.toastSuccess
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

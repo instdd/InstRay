@@ -1,12 +1,12 @@
-package com.v2ray.ang.fmt
+package com.instray.ang.fmt
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.dto.NetworkType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.extension.isNotNullEmpty
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.util.HttpUtil
+import com.instray.ang.util.Utils
 import java.net.URI
 
 open class FmtBase {

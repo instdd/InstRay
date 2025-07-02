@@ -19,15 +19,15 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.instray.ang.plugin
 
 import android.content.pm.ComponentInfo
 import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
 import android.graphics.drawable.Drawable
 import android.os.Build
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.plugin.PluginManager.loadString
+import com.instray.ang.AngApplication
+import com.instray.ang.plugin.PluginManager.loadString
 
 abstract class ResolvedPlugin(protected val resolveInfo: ResolveInfo) : Plugin() {
     protected abstract val componentInfo: ComponentInfo

@@ -19,7 +19,7 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.instray.ang.plugin
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -33,10 +33,10 @@ import android.net.Uri
 import android.os.Build
 import android.system.Os
 import androidx.core.os.bundleOf
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.extension.listenForPackageChanges
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.plugin.PluginContract.METADATA_KEY_ID
+import com.instray.ang.AngApplication
+import com.instray.ang.extension.listenForPackageChanges
+import com.instray.ang.extension.toast
+import com.instray.ang.plugin.PluginContract.METADATA_KEY_ID
 import java.io.File
 import java.io.FileNotFoundException
 

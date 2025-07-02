@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.Manifest
 import android.content.Intent
@@ -9,17 +9,17 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityAboutBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SpeedtestManager
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.util.ZipUtil
+import com.instray.ang.AppConfig
+import com.instray.ang.BuildConfig
+import com.instray.ang.R
+import com.instray.ang.databinding.ActivityAboutBinding
+import com.instray.ang.extension.toast
+import com.instray.ang.extension.toastError
+import com.instray.ang.extension.toastSuccess
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SpeedtestManager
+import com.instray.ang.util.Utils
+import com.instray.ang.util.ZipUtil
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Locale

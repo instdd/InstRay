@@ -1,30 +1,30 @@
-package com.v2ray.ang.handler
+package com.instray.ang.handler
 
 import android.content.Context
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.ConfigResult
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean.OutSettingsBean
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean.StreamSettingsBean
-import com.v2ray.ang.dto.V2rayConfig.RoutingBean.RulesBean
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.fmt.HttpFmt
-import com.v2ray.ang.fmt.ShadowsocksFmt
-import com.v2ray.ang.fmt.SocksFmt
-import com.v2ray.ang.fmt.TrojanFmt
-import com.v2ray.ang.fmt.VlessFmt
-import com.v2ray.ang.fmt.VmessFmt
-import com.v2ray.ang.fmt.WireguardFmt
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.dto.ConfigResult
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.NetworkType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.dto.RulesetItem
+import com.instray.ang.dto.V2rayConfig
+import com.instray.ang.dto.V2rayConfig.OutboundBean
+import com.instray.ang.dto.V2rayConfig.OutboundBean.OutSettingsBean
+import com.instray.ang.dto.V2rayConfig.OutboundBean.StreamSettingsBean
+import com.instray.ang.dto.V2rayConfig.RoutingBean.RulesBean
+import com.instray.ang.extension.isNotNullEmpty
+import com.instray.ang.fmt.HttpFmt
+import com.instray.ang.fmt.ShadowsocksFmt
+import com.instray.ang.fmt.SocksFmt
+import com.instray.ang.fmt.TrojanFmt
+import com.instray.ang.fmt.VlessFmt
+import com.instray.ang.fmt.VmessFmt
+import com.instray.ang.fmt.WireguardFmt
+import com.instray.ang.util.HttpUtil
+import com.instray.ang.util.JsonUtil
+import com.instray.ang.util.Utils
 
 object V2rayConfigManager {
     private var initConfigCache: String? = null

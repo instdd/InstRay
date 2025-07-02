@@ -1,11 +1,11 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.databinding.ItemRecyclerBypassListBinding
-import com.v2ray.ang.dto.AppInfo
+import com.instray.ang.databinding.ItemRecyclerBypassListBinding
+import com.instray.ang.dto.AppInfo
 
 class PerAppProxyAdapter(val activity: BaseActivity, val apps: List<AppInfo>, blacklist: MutableSet<String>?) :
     RecyclerView.Adapter<PerAppProxyAdapter.BaseViewHolder>() {

@@ -1,13 +1,13 @@
-package com.v2ray.ang.viewmodel
+package com.instray.ang.viewmodel
 
 import android.app.Application
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.preference.PreferenceManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
+import com.instray.ang.AppConfig
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SettingsManager
 
 class SettingsViewModel(application: Application) : AndroidViewModel(application),
     SharedPreferences.OnSharedPreferenceChangeListener {

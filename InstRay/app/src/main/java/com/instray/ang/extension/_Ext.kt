@@ -1,4 +1,4 @@
-package com.v2ray.ang.extension
+package com.instray.ang.extension
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,7 +7,7 @@ import android.content.IntentFilter
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
-import com.v2ray.ang.AngApplication
+import com.instray.ang.AngApplication
 import es.dmoral.toasty.Toasty
 import org.json.JSONObject
 import java.io.Serializable

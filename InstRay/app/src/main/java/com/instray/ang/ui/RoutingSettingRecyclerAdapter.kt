@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.content.Intent
 import android.graphics.Color
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.databinding.ItemRecyclerRoutingSettingBinding
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.ItemTouchHelperAdapter
-import com.v2ray.ang.helper.ItemTouchHelperViewHolder
+import com.instray.ang.databinding.ItemRecyclerRoutingSettingBinding
+import com.instray.ang.handler.SettingsManager
+import com.instray.ang.helper.ItemTouchHelperAdapter
+import com.instray.ang.helper.ItemTouchHelperViewHolder
 
 class RoutingSettingRecyclerAdapter(val activity: RoutingSettingActivity) : RecyclerView.Adapter<RoutingSettingRecyclerAdapter.MainViewHolder>(),
     ItemTouchHelperAdapter {

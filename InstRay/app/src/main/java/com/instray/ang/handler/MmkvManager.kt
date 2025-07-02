@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.instray.ang.handler
 
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig.PREF_IS_BOOTED
-import com.v2ray.ang.AppConfig.PREF_ROUTING_RULESET
-import com.v2ray.ang.dto.AssetUrlItem
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.dto.ServerAffiliationInfo
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig.PREF_IS_BOOTED
+import com.instray.ang.AppConfig.PREF_ROUTING_RULESET
+import com.instray.ang.dto.AssetUrlItem
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.dto.RulesetItem
+import com.instray.ang.dto.ServerAffiliationInfo
+import com.instray.ang.dto.SubscriptionItem
+import com.instray.ang.util.JsonUtil
+import com.instray.ang.util.Utils
 
 object MmkvManager {
 

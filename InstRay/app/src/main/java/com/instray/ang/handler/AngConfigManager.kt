@@ -1,27 +1,27 @@
-package com.v2ray.ang.handler
+package com.instray.ang.handler
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.HY2
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.fmt.CustomFmt
-import com.v2ray.ang.fmt.Hysteria2Fmt
-import com.v2ray.ang.fmt.ShadowsocksFmt
-import com.v2ray.ang.fmt.SocksFmt
-import com.v2ray.ang.fmt.TrojanFmt
-import com.v2ray.ang.fmt.VlessFmt
-import com.v2ray.ang.fmt.VmessFmt
-import com.v2ray.ang.fmt.WireguardFmt
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.QRCodeDecoder
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.HY2
+import com.instray.ang.R
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.dto.SubscriptionItem
+import com.instray.ang.fmt.CustomFmt
+import com.instray.ang.fmt.Hysteria2Fmt
+import com.instray.ang.fmt.ShadowsocksFmt
+import com.instray.ang.fmt.SocksFmt
+import com.instray.ang.fmt.TrojanFmt
+import com.instray.ang.fmt.VlessFmt
+import com.instray.ang.fmt.VmessFmt
+import com.instray.ang.fmt.WireguardFmt
+import com.instray.ang.util.HttpUtil
+import com.instray.ang.util.JsonUtil
+import com.instray.ang.util.QRCodeDecoder
+import com.instray.ang.util.Utils
 import java.net.URI
 
 object AngConfigManager {

@@ -1,14 +1,14 @@
-package com.v2ray.ang.util
+package com.instray.ang.util
 
 import android.content.Context
 import android.os.SystemClock
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.fmt.Hysteria2Fmt
-import com.v2ray.ang.handler.SpeedtestManager
-import com.v2ray.ang.service.ProcessService
+import com.instray.ang.AppConfig
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.fmt.Hysteria2Fmt
+import com.instray.ang.handler.SpeedtestManager
+import com.instray.ang.service.ProcessService
 import java.io.File
 
 object PluginUtil {

@@ -1,7 +1,7 @@
-package com.v2ray.ang.util
+package com.instray.ang.util
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
+import com.instray.ang.AppConfig
 import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileInputStream

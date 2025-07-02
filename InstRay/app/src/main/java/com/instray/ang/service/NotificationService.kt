@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.instray.ang.service
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -11,14 +11,14 @@ import android.graphics.Color
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.AppConfig.TAG_DIRECT
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.toSpeedString
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.ui.MainActivity
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.ANG_PACKAGE
+import com.instray.ang.AppConfig.TAG_DIRECT
+import com.instray.ang.R
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.extension.toSpeedString
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.ui.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

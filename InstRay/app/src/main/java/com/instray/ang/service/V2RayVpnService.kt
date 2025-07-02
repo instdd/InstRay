@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.instray.ang.service
 
 import android.app.Service
 import android.content.Context
@@ -17,13 +17,13 @@ import android.os.ParcelFileDescriptor
 import android.os.StrictMode
 import android.util.Log
 import androidx.annotation.RequiresApi
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.MyContextWrapper
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.LOOPBACK
+import com.instray.ang.BuildConfig
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SettingsManager
+import com.instray.ang.util.MyContextWrapper
+import com.instray.ang.util.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

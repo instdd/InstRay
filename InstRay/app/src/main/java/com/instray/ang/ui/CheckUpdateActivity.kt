@@ -1,21 +1,21 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityCheckUpdateBinding
-import com.v2ray.ang.dto.CheckUpdateResult
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SpeedtestManager
-import com.v2ray.ang.handler.UpdateCheckerManager
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.BuildConfig
+import com.instray.ang.R
+import com.instray.ang.databinding.ActivityCheckUpdateBinding
+import com.instray.ang.dto.CheckUpdateResult
+import com.instray.ang.extension.toast
+import com.instray.ang.extension.toastError
+import com.instray.ang.extension.toastSuccess
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SpeedtestManager
+import com.instray.ang.handler.UpdateCheckerManager
+import com.instray.ang.util.Utils
 import kotlinx.coroutines.launch
 
 class CheckUpdateActivity : BaseActivity() {

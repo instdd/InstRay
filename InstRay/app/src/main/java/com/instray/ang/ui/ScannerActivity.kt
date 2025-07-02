@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.Manifest
 import android.content.Intent
@@ -11,11 +11,11 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.QRCodeDecoder
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.extension.toast
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.util.QRCodeDecoder
 import io.github.g00fy2.quickie.QRResult
 import io.github.g00fy2.quickie.ScanCustomCode
 import io.github.g00fy2.quickie.config.ScannerConfig

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.content.Intent
 import android.graphics.Color
@@ -10,17 +10,17 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ItemQrcodeBinding
-import com.v2ray.ang.databinding.ItemRecyclerSubSettingBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.ItemTouchHelperAdapter
-import com.v2ray.ang.helper.ItemTouchHelperViewHolder
-import com.v2ray.ang.util.QRCodeDecoder
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.databinding.ItemQrcodeBinding
+import com.instray.ang.databinding.ItemRecyclerSubSettingBinding
+import com.instray.ang.extension.toast
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SettingsManager
+import com.instray.ang.helper.ItemTouchHelperAdapter
+import com.instray.ang.helper.ItemTouchHelperViewHolder
+import com.instray.ang.util.QRCodeDecoder
+import com.instray.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

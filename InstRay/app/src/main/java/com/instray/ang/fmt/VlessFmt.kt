@@ -1,13 +1,13 @@
-package com.v2ray.ang.fmt
+package com.instray.ang.fmt
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.extension.idnHost
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.V2rayConfigManager
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.dto.V2rayConfig.OutboundBean
+import com.instray.ang.extension.idnHost
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.V2rayConfigManager
+import com.instray.ang.util.Utils
 import java.net.URI
 
 object VlessFmt : FmtBase() {

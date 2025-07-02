@@ -1,6 +1,6 @@
-package com.v2ray.ang.dto
+package com.instray.ang.dto
 
-import com.v2ray.ang.AppConfig
+import com.instray.ang.AppConfig
 
 
 enum class EConfigType(val value: Int, val protocolScheme: String) {

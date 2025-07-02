@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.instray.ang.handler
 
 import android.util.Log
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.ServerConfig
-import com.v2ray.ang.extension.removeWhiteSpace
-import com.v2ray.ang.handler.MmkvManager.decodeServerConfig
-import com.v2ray.ang.util.JsonUtil
+import com.instray.ang.AppConfig
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.NetworkType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.dto.ServerConfig
+import com.instray.ang.extension.removeWhiteSpace
+import com.instray.ang.handler.MmkvManager.decodeServerConfig
+import com.instray.ang.util.JsonUtil
 
 object MigrateManager {
     private const val ID_SERVER_CONFIG = "SERVER_CONFIG"

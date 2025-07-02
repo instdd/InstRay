@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -12,23 +12,23 @@ import android.widget.LinearLayout
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.DEFAULT_PORT
-import com.v2ray.ang.AppConfig.PREF_ALLOW_INSECURE
-import com.v2ray.ang.AppConfig.REALITY
-import com.v2ray.ang.AppConfig.TLS
-import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
-import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_MTU
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.DEFAULT_PORT
+import com.instray.ang.AppConfig.PREF_ALLOW_INSECURE
+import com.instray.ang.AppConfig.REALITY
+import com.instray.ang.AppConfig.TLS
+import com.instray.ang.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
+import com.instray.ang.AppConfig.WIREGUARD_LOCAL_MTU
+import com.instray.ang.R
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.NetworkType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.extension.isNotNullEmpty
+import com.instray.ang.extension.toast
+import com.instray.ang.extension.toastSuccess
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.util.JsonUtil
+import com.instray.ang.util.Utils
 
 class ServerActivity : BaseActivity() {
 

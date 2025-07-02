@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.instray.ang.ui
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -12,18 +12,18 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityRoutingSettingBinding
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.databinding.ActivityRoutingSettingBinding
+import com.instray.ang.dto.RulesetItem
+import com.instray.ang.extension.toast
+import com.instray.ang.extension.toastError
+import com.instray.ang.extension.toastSuccess
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SettingsManager
+import com.instray.ang.helper.SimpleItemTouchHelperCallback
+import com.instray.ang.util.JsonUtil
+import com.instray.ang.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

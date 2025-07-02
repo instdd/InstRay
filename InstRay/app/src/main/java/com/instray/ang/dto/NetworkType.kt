@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto
+package com.instray.ang.dto
 
 enum class NetworkType(val type: String) {
     TCP("tcp"),

@@ -1,11 +1,11 @@
-package com.v2ray.ang.receiver
+package com.instray.ang.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.text.TextUtils
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.service.V2RayServiceManager
+import com.instray.ang.AppConfig
+import com.instray.ang.service.V2RayServiceManager
 
 class TaskerReceiver : BroadcastReceiver() {
 

@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.instray.ang.service
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -8,18 +8,18 @@ import android.content.IntentFilter
 import android.os.Build
 import android.util.Log
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.handler.SpeedtestManager
-import com.v2ray.ang.handler.V2rayConfigManager
-import com.v2ray.ang.util.MessageUtil
-import com.v2ray.ang.util.PluginUtil
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.extension.toast
+import com.instray.ang.handler.MmkvManager
+import com.instray.ang.handler.SettingsManager
+import com.instray.ang.handler.SpeedtestManager
+import com.instray.ang.handler.V2rayConfigManager
+import com.instray.ang.util.MessageUtil
+import com.instray.ang.util.PluginUtil
+import com.instray.ang.util.Utils
 import go.Seq
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

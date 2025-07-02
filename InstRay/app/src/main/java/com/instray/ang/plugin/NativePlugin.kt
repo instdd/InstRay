@@ -19,7 +19,7 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.instray.ang.plugin
 
 import android.content.pm.ResolveInfo
 

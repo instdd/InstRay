@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.instray.ang.handler
 
 import android.content.Context
 import android.os.SystemClock
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.IPAPIInfo
-import com.v2ray.ang.extension.responseLength
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
+import com.instray.ang.AppConfig
+import com.instray.ang.R
+import com.instray.ang.dto.IPAPIInfo
+import com.instray.ang.extension.responseLength
+import com.instray.ang.util.HttpUtil
+import com.instray.ang.util.JsonUtil
 import kotlinx.coroutines.isActive
 import libv2ray.Libv2ray
 import java.io.IOException

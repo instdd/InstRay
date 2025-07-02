@@ -1,11 +1,11 @@
-package com.v2ray.ang.util
+package com.instray.ang.util
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.util.Utils.encode
-import com.v2ray.ang.util.Utils.urlDecode
+import com.instray.ang.AppConfig
+import com.instray.ang.AppConfig.LOOPBACK
+import com.instray.ang.BuildConfig
+import com.instray.ang.util.Utils.encode
+import com.instray.ang.util.Utils.urlDecode
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.IDN

@@ -1,9 +1,9 @@
-package com.v2ray.ang.fmt
+package com.instray.ang.fmt
 
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.util.JsonUtil
+import com.instray.ang.dto.EConfigType
+import com.instray.ang.dto.ProfileItem
+import com.instray.ang.dto.V2rayConfig
+import com.instray.ang.util.JsonUtil
 
 object CustomFmt : FmtBase() {
     /**

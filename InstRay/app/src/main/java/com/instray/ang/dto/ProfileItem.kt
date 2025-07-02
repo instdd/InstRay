@@ -1,11 +1,11 @@
-package com.v2ray.ang.dto
+package com.instray.ang.dto
 
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.AppConfig.PORT_SOCKS
-import com.v2ray.ang.AppConfig.TAG_BLOCKED
-import com.v2ray.ang.AppConfig.TAG_DIRECT
-import com.v2ray.ang.AppConfig.TAG_PROXY
-import com.v2ray.ang.util.Utils
+import com.instray.ang.AppConfig.LOOPBACK
+import com.instray.ang.AppConfig.PORT_SOCKS
+import com.instray.ang.AppConfig.TAG_BLOCKED
+import com.instray.ang.AppConfig.TAG_DIRECT
+import com.instray.ang.AppConfig.TAG_PROXY
+import com.instray.ang.util.Utils
 
 data class ProfileItem(
     val configVersion: Int = 4,

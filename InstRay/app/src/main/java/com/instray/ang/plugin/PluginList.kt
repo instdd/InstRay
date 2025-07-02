@@ -19,11 +19,11 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.instray.ang.plugin
 
 import android.content.Intent
 import android.content.pm.PackageManager
-import com.v2ray.ang.AngApplication
+import com.instray.ang.AngApplication
 
 class PluginList : ArrayList<Plugin>() {
     init {
