@@ -70,13 +70,13 @@ jobs:
           echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
           popd
 
-      - name: Download libv2ray.aar
+      - name: Download libv2ray
         uses: robinraju/release-downloader@v1.12
         with:
           repository: 2dust/AndroidLibXrayLite
           tag: ${{ steps.xray_tag.outputs.tag }}
           fileName: libv2ray.aar
-          out-file-path: app/libs/
+          out-file-path: InstRay/app/libs/
 
       # ───────────── кэш и сборка libhysteria2 (Go) ─────────────
       - name: Restore cached libhysteria2
