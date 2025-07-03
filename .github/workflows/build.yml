@@ -70,12 +70,12 @@ jobs:
           ls -R InstRay/app/libs
           echo "::endgroup::"
 
-      - name: List .so in apk (debug)
-        run: |
-          ./gradlew -p InstRay :app:assembleFdroidDebug   # быстрая дебаг-сборка
-          echo "::group::apk contents"
-          unzip -l InstRay/app/build/outputs/apk/*/debug/*.apk | grep '\.so'
-          echo "::endgroup::
+#      - name: List .so in apk (debug)
+#        run: |
+#          ./gradlew -p InstRay :app:assembleFdroidDebug   # быстрая дебаг-сборка
+#          echo "::group::apk contents"
+#          unzip -l InstRay/app/build/outputs/apk/*/debug/*.apk | grep '\.so'
+#          echo "::endgroup::
 
       # ─────── загрузка libv2ray.aar из AndroidLibXrayLite ───────
       - name: Fetch AndroidLibXrayLite latest tag
