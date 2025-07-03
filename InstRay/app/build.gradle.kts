@@ -135,6 +135,8 @@ android {
 
 }
 
+archivesBaseName.set("InstRay")
+
 //repositories { flatDir { dirs("libs") } }
 
 dependencies {
