@@ -60,7 +60,9 @@ jobs:
           key: libtun2socks-${{ runner.os }}-${{ env.NDK_HOME }}-${{ hashFiles('.git/modules/badvpn/HEAD') }}-${{ hashFiles('.git/modules/libancillary/HEAD') }}
 
       - name: Copy libtun2socks into app module
-        run: cp -r ${{ github.workspace }}/libs ${{ github.workspace }}/app
+        run: |
+          mkdir -p InstRay/app
+          cp -r libs InstRay/app
 
       - name: Show libs tree (debug)
         run: |
