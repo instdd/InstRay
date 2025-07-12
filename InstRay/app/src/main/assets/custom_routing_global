@@ -1,4 +1,12 @@
 [
+    {
+        "remarks": "Google com",
+        "outboundTag": "proxy",
+        "domain": [
+          "domain:googleapis.com",
+          "domain:gstatic.com"
+        ]
+      },
   {
     "remarks": "阻断udp443",
     "outboundTag": "block",
